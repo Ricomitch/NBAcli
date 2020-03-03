@@ -9,6 +9,24 @@ class NBAcli::CLI
     puts "Hello"
     puts "GETTING DATA FROM API ... PLEASE WAIT"
     puts "CREATING NEW OBJS"
+    display_info
+  end
+  
+  def display_info
+    puts "please enter player last name:"
+    input = gets.strip.downcase
+    
+    if input == "players"
+      puts "-----------Player Info-----------"
+      puts LIST OF PLAYERS/OBJS
+      display_info
+    elsif input  == "teams"
+      puts "-----------Team Info-----------"
+      puts LIST OF TEAMS/OBJS
+      display_info
+    else  
+      quit
+    end  
   end
   
   
@@ -24,5 +42,7 @@ class NBAcli::CLI
   # if input is == "exit"
   # kill program say good bye
   
-  
+  def quit
+    puts "GOODBYE"  
+  end
 end  
