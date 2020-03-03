@@ -2,3 +2,5 @@
 
 require "bundler/setup"
 require "NBAcli"
+
+NBAcli::CLI.new.start
