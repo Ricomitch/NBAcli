@@ -4,6 +4,9 @@
 require "NBAcli/version"
 require "NBAcli/cli"
 
+# dependencies
+require "pry"
+
 module NBAcli
   class Error < StandardError; end
   # Your code goes here...
