@@ -1,4 +1,4 @@
-class NBAcli::CLI
+class NBAcli::Cli
   
   #start should greet user, or give desc
   # get data from api
