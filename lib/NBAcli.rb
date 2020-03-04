@@ -3,6 +3,8 @@
 
 require "NBAcli/version"
 require "NBAcli/cli"
+require "NBAcli/nba" 
+require "NBAcli/api"
 
 # dependencies
 require "pry"
