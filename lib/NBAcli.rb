@@ -8,6 +8,7 @@ require "NBAcli/api"
 
 # dependencies
 require "pry"
+require "httparty"
 
 module NBAcli
   class Error < StandardError; end
