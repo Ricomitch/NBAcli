@@ -9,6 +9,7 @@ require "NBAcli/api"
 # dependencies
 require "pry"
 require "httparty"
+require "unirest"
 
 module NBAcli
   class Error < StandardError; end
