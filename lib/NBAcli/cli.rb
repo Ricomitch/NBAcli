@@ -7,6 +7,8 @@ class NBAcli::Cli
   
   def start 
     puts "Hello"
+    
+    @data = NBAcli::API.get_games
     puts "GETTING DATA FROM API ... PLEASE WAIT"
     puts "CREATING NEW OBJS"
     display_info

@@ -11,4 +11,7 @@ class NBAcli::API
     "X-RapidAPI-Host" => "api-nba-v1.p.rapidapi.com",
     "X-RapidAPI-Key" => "e20bd75f02msh1193f74400a595bp13abe8jsnd35b87c78c4e"
   }
+  
+  Binding.pry 
+  end
 end  
