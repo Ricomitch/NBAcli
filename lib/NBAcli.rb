@@ -8,7 +8,7 @@ require "NBAcli/api"
 
 # dependencies
 require "pry"
-require "httparty"
+#require "httparty"
 require "unirest"
 
 module NBAcli
